@@ -26,10 +26,10 @@
 
                 <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
                 <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">このタスクを編集する</a></p>
-                </c:when>
-                <c:otherwise>
-                    <h2>お探しのデータは見つかりませんでした。</h2>
-                </c:otherwise>
+            </c:when>
+            <c:otherwise>
+                <h2>お探しのデータは見つかりませんでした。</h2>
+            </c:otherwise>
         </c:choose>
     </c:param>
 </c:import>
